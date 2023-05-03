@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+.cardspython {
+    width:15%;
+    background-color: rgb(238,238,238);
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 15px black;
+    border-radius: 5px;
+}
+.pylogo img {
+    width: 100%;
+    height: 50%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 8px;
+}
+.cardspython .title {
+    text-align: center;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.cardspython .description {
+    text-align: center;
+    font-size: 9px;
+    line-height: 15px;
+    padding-right: 2px;
+    padding-left: 4px;
+    padding-top: 5px;
+}
+/* .cardspython .description .buy {
+    color: blue;
+    margin-right: 100px;
+    margin-top: 10px;
+} */
+.btn {
+    position: relative;
+    margin-right: 20px;
+    padding: 10px;
+}
+.btn .buy {
+    margin-right: 35px;
+    padding: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(240,193,75);
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.buy:hover {
+    background-color: rgb(20,142,217);
+}
+.btn .demo {
+    padding: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(240,193,75);
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 10px;
+    margin-left: 80px;
+}
+.demo:hover {
+    background-color: rgb(20,142,217);
+}
+.cardspython .descriptionc {
+    text-align: center;
+    font-size: 9px;
+    line-height: 15px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+.cardspython .title1 {
+    text-align: center;
+    font-size: 12px;
+    padding-left: 5px;
+    margin-bottom: 45px;
+}
