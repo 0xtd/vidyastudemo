@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    align-items: center;
+    padding: 25px;
+    height: 100px;
+}
+nav img {
+    width: 80px;
+    height: 80px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav ul li {
+    margin-right: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button1 {
+    background-color:rgb(240,193,75);
+    padding: 15px 25px;
+    border-radius: 50px;
+    color: white;
+}
+main .hero-image {
+    width: 100%;
+    height: 580px;
+}
+.course-logos img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    border-radius: 15px;
+}
+.course-logos {
+    display: flex;
+    justify-content: center;
+}
+.technology-section {
+    background: url("https://vidyastu.in/wp-content/uploads/2022/09/tudor-baciu-vc3iVL_znJ8-unsplash.jpg");
+    text-align: center;
+    padding: 100px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.technology-section h1 {
+    color: white;
+    font-size: 35px;
+}
+.technology-section .button2 {
+    border: none;
+    text-transform: uppercase;
+    background-color:rgb(240,193,75);
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-top: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button2:hover {
+    background-color: blue;
+}
+.placement {
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgb(242,242,242)
+}
+.placement h1 {
+    color: rgb(41,112,216);
+    font-size: 30px;
+    /* padding-bottom: 20px; */
+    text-align: center;
+}
+.placement img {
+    width: 130px;
+    height: 100px;
+    margin: 25px;
+}
+.placedstudents h1 {
+    color: rgb(41,112,216);
+    font-size: 30px;
+    text-align: center;
+}
+.placedstudents {
+    background-color: rgb(242,242,242)
+}
+.features {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(242,242,242)
+}
+.key h1 {
+    color: rgb(41,112,216);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgb(242,242,242)
+}
+.features img {
+    width: 400px;
+    height: 210px;
+    padding: 25px;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+.features ul {
+    padding-top: 80px;
+    padding-right: 150px;
+    list-style: none;
+}
+.features ul i {
+    font-size: 10px;
+    color: rgb(41,112,215);
+    padding-right: 10px;
+}
+.features ul li {
+    font-size: 10px;
+    line-height: 20px;
+    padding-right: 100px;
+    font-weight: bold;
+}
+.course-detail h1 {
+    color: rgb(41,112,216);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* .python-content img {
+    width: 150px;
+    height: 150px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-left: 10px; 
+} 
+.python-content h2 {
+    font-size: 15px;
+    text-align: ;
+} */
+footer .foot {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51,51,51);
+    color: white;
+    text-align: start;
+}
+ footer .foot .map {
+    padding: 50px 100px 20px 0;
+    vertical-align: middle;
+}
+
+footer .foot .quicklinks {
+    margin-top: 50px;
+    margin-left: 180px;
+    list-style: disc;
+    vertical-align: middle;
+}
+footer .foot .contactus {
+    padding-top: 50px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+footer ul {
+    list-style: none;
+    line-height: 25px;
+    font-size: 12px;
+} 
+footer h3 {
+    font-size: 18px;
+}
+.bottom-most {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51,51,51);
+    color: white;
+    font-size: 12px;
+    height: 50px;
+}
+.bottom-most p1 {
+    padding-left: 180px;
+    padding-top: 20px;
+    align-items: center;
+}
+.bottom-most p2 {
+    padding-right: 100px;
+    padding-top: 20px;
+}
+footer .socialmedialogo {
+    display: inline-flex;
+    cursor: pointer;
+}
+.fb {
+    padding-right: 20px;
+}
+.fb a:link {
+    color:white
+}
+.fb a:hover {
+    color:rgb(19, 182, 236)
+}
+.twt {
+    padding-right: 20px;
+}
+.twt a:link {
+    color:white
+}
+.twt a:hover {
+    color:rgb(19, 182, 236)
+}
